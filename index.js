@@ -19,7 +19,12 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = ("18");
+let age = ("19");{
+if (age > votingAge); {
+  console.log("true");
+}
+}
 
 
 /*
@@ -35,6 +40,14 @@ Do the following:
 */
 
 
+let firstThing = ("20");
+const secondThing = ("20");{
+  if (firstThing === secondThing);{
+    ++firstThing; {
+      console.log(firstThing);
+    }
+  }
+}
 
 
 
@@ -49,8 +62,10 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let string = "1999";
+let int = parseInt(string);{
+console.log (int);
+}
 
 /*
 Task 1d - Multiply
@@ -61,11 +76,14 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+//function multiply(/*your code here*/){
+/*your code here*/
+//}
+
+function multiply(a, b){
+  return(a*b);
 }
-
-
+console.log(multiply(26,30));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -77,9 +95,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
-}
+function dogYears(a){
+  return (a*7);
+  }
+  console.log(dogYears(10))
+  
 
 
 
